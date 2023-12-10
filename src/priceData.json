@@ -1,0 +1,311 @@
+[
+  {
+    "price_type": "Single",
+    "price_related": "Ideal solution for beginners",
+    "price_saving": {
+      "price_saving_value": "9.99",
+      "price_saving_percentage": "80"
+    },
+    "price": "1.99",
+    "offer": "",
+    "renew": "3.99",
+    "features": [
+      {
+        "features_type": "Top Features",
+      "features_value": [
+        {
+          "feature": true,
+          "feature_value": "100 Websites"
+        },
+        {
+          "feature": true,
+          "feature_value": "Increased Performance(Up to 5x)"
+        },
+        {
+          "feature": true,
+          "feature_value": "200 GB NVMe Storage"
+        },
+        {
+          "feature": true,
+          "feature_value": "Daily Backups($25.08 value)"
+        },
+        {
+          "feature": true,
+          "feature_value": "Free Email"
+        },
+        {
+          "feature": false,
+          "feature_value": "Unlimited Free SSl"
+        },
+        {
+          "feature": false,
+          "feature_value": "Unlimited Bandwidth"
+        },
+        {
+          "feature": false,
+          "feature_value": "Free Domain ($9.99 value)"
+        },
+        {
+          "feature": false,
+          "feature_value": "Free CDN"
+        },
+        {
+          "feature": false,
+          "feature_value": "Dedicated IP Address"
+        }
+      ]
+      },
+      {
+        "features_type":"Managed WordPress",
+        "features_value":[
+            {
+                "feature":true,
+                "feature_value":"Basic WooCommerce"
+            },
+            {
+                "feature":true,
+                "feature_value":"Free Automatic Website Migration"
+            },
+            {
+                "feature":true,
+                "feature_value":"Free 1-click WordPress Installation"
+            },
+            {
+                "feature":true,
+                "feature_value":"WordPress Acceleration(LiteSpeed)"
+            },
+            {
+                "feature":true,
+                "feature_value":"WordPress Vulnerabilities Scanner"
+            },
+            {
+                "feature":true,
+                "feature_value":"WordPress Multisite"
+            },
+            {
+                "feature":false,
+                "feature_value":"WP-CLI and SSH"
+            },
+            {
+                "feature":false,
+                "feature_value":"WordPress Staging Tool"
+            },
+            {
+                "feature":false,
+                "feature_value":"Object Cache for WordPress"
+            },
+            {
+                "feature":false,
+                "feature_value":"On-Demand Backup"
+            }
+        ]
+      }
+]
+  },
+  {
+    "price_type": "Premium",
+    "price_related": "Ideal solution for beginners",
+    "price_saving": {
+      "price_saving_value": "9.99",
+      "price_saving_percentage": "70"
+    },
+    "price": "1.99",
+    "offer": "+2 months FREE",
+    "renew": "3.99",
+    "features": [
+        {
+          "features_type": "Top Features",
+        "features_value": [
+          {
+            "feature": true,
+            "feature_value": "100 Websites"
+          },
+          {
+            "feature": true,
+            "feature_value": "Increased Performance(Up to 5x)"
+          },
+          {
+            "feature": true,
+            "feature_value": "200 GB NVMe Storage"
+          },
+          {
+            "feature": true,
+            "feature_value": "Daily Backups($25.08 value)"
+          },
+          {
+            "feature": true,
+            "feature_value": "Free Email"
+          },
+          {
+            "feature": true,
+            "feature_value": "Unlimited Free SSl"
+          },
+          {
+            "feature": true,
+            "feature_value": "Unlimited Bandwidth"
+          },
+          {
+            "feature": false,
+            "feature_value": "Free Domain ($9.99 value)"
+          },
+          {
+            "feature": false,
+            "feature_value": "Free CDN"
+          },
+          {
+            "feature": false,
+            "feature_value": "Dedicated IP Address"
+          }
+        ]
+        },
+        {
+            "features_type":"Managed WordPress",
+            "features_value":[
+                {
+                    "feature":true,
+                    "feature_value":"Basic WooCommerce"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"Free Automatic Website Migration"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"Free 1-click WordPress Installation"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Acceleration(LiteSpeed)"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Vulnerabilities Scanner"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Multisite"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WP-CLI and SSH"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Staging Tool"
+                },
+                {
+                    "feature":false,
+                    "feature_value":"Object Cache for WordPress"
+                },
+                {
+                    "feature":false,
+                    "feature_value":"On-Demand Backup"
+                }
+            ]
+          }
+  ]
+  },
+  {
+    "price_type": "Business",
+    "price_related": "Ideal solution for beginners",
+    "price_saving": {
+      "price_saving_value": "9.99",
+      "price_saving_percentage": "70"
+    },
+    "price": "1.99",
+    "offer": "+2 months FREE",
+    "renew": "3.99",
+    "features": [
+        {
+          "features_type": "Top Features",
+        "features_value": [
+          {
+            "feature": true,
+            "feature_value": "100 Websites"
+          },
+          {
+            "feature": true,
+            "feature_value": "Increased Performance(Up to 5x)"
+          },
+          {
+            "feature": true,
+            "feature_value": "200 GB NVMe Storage"
+          },
+          {
+            "feature": true,
+            "feature_value": "Daily Backups($25.08 value)"
+          },
+          {
+            "feature": true,
+            "feature_value": "Free Email"
+          },
+          {
+            "feature": true,
+            "feature_value": "Unlimited Free SSl"
+          },
+          {
+            "feature": true,
+            "feature_value": "Unlimited Bandwidth"
+          },
+          {
+            "feature": true,
+            "feature_value": "Free Domain ($9.99 value)"
+          },
+          {
+            "feature": true,
+            "feature_value": "Free CDN"
+          },
+          {
+            "feature": false,
+            "feature_value": "Dedicated IP Address"
+          }
+        ]
+        },
+        {
+            "features_type":"Managed WordPress",
+            "features_value":[
+                {
+                    "feature":true,
+                    "feature_value":"Basic WooCommerce"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"Free Automatic Website Migration"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"Free 1-click WordPress Installation"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Acceleration(LiteSpeed)"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Vulnerabilities Scanner"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WordPress Multisite"
+                },
+                {
+                    "feature":true,
+                    "feature_value":"WP-CLI and SSH"
+                },
+                {
+                    "feature":false,
+                    "feature_value":"WordPress Staging Tool"
+                },
+                {
+                    "feature":false,
+                    "feature_value":"Object Cache for WordPress"
+                },
+                {
+                    "feature":false,
+                    "feature_value":"On-Demand Backup"
+                }
+            ]
+          }
+  ]
+  }
+]

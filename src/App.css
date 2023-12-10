@@ -1,38 +1,213 @@
-.App {
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price_card_wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  width: 33.33%;
+  padding: 20px;
+}
+
+.price_card {
+  width: 100%;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 31px 23px;
+}
+
+.price_type {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.price_related {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px;
+  min-height: 34px;
+}
+
+.price_saving {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saving_value {
+  color: #727586;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line: line-through;
+}
+
+.saving_percentage {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 4px;
+  color: #26d48c;
+  background-color: #ebe4ff;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 4px 12px;
+}
+
+.price {
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #26d48c;
+}
+
+.price_sign,
+.price_per_month {
+  font-size: 0.5em;
+}
+
+.price .price_value {
+  font-size: 1em;
+}
+
+.price_card .offer {
+  margin-bottom: 24px;
+  margin-top: -12px;
+  color: #1842b6;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  height: 16px;
+}
+
+.price_card button {
+  background-color: #26d48c;
+  box-shadow: 0 1px 8px #00000029;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  min-height: 48px;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.plan_renew {
+  color: #727586;
+  height: 24px;
+  margin: 16px 0 32px;
+  font-size: 14px;
+  font-weight: 400;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.price_card .hr {
+  border: 0.5px solid #d5dfff;
+  margin-bottom: 32px;
+  width: 100%;
+  background-color: #26d48c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.features .features_type {
+  margin-bottom: 18px;
+  text-align: start;
+  font-size: 18px;
+  font-weight: 700;
+  color: #26d48c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.features .features_value {
+  margin-bottom: 12px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  color: #1842b6;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.features_value .cross{
+  color: red;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.features_value .value{
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.features_value span{
+  margin-left: 8px;
+}
+
+.show_more{
+  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: 700;
+    user-select: none;
+    font-size: 16px;
+    text-align: center;
+    color: #26d48c;
+}
+
+.show_more span{
+  align-items: center;
+    display: flex;
+    margin-left: 8px;
+    transition: .5s;
+}
+@media (max-width: 768px) {
+  .app {
+    max-width: 720px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main {
+    width: 50%;
+  }
+}
+
+@media (max-width: 580px) {
+  .app {
+    max-width: 540px;
+  }
+  .price_card_wrapper {
+    justify-content: center;
+  }
+
+  .main {
+    width: 100%;
   }
 }
